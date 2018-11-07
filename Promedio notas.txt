@@ -1,0 +1,33 @@
+Miniespecificación
+1. inicio
+2. notas matématicas (3)
+3. notas Literatura (3)
+4. suma, d[0-n]
+5. promedio, d[0-n]
+6. notas matematicas <---- [20, 15 ,17.5]
+7. notas literatura <-----[10, 20 ,19.5]
+8. suma matematicas <----0 
+9. promedio matematicas <----suma/3
+10. Mientras contador < 3 Entonces
+11. suma<--- suma+ notas matematica [contador]
+12 contador<--- contador+1
+14. Fin mientras
+14. << suma matematica
+15. promedio <-- suma  matematica/3
+16. suma literatura<-----0
+17. promedio literatura<------- suma literatura/3
+18. Mientras contador < 3 Entonces
+19 suma<--- suma+ notas literatura [contador]
+20 contador<--- contador+1
+21. Fin mientras
+22. << suma literatura
+23. promedio literatura<--- suma literatura/3
+24. Si promedio literatura > promedio matematica
+25. << promedio literatura
+27. Otro caso
+29. << promedio matematicas
+30 FinSi
+31. Fin
+
+
+
